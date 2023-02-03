@@ -19,7 +19,7 @@ const Contact = () => {
           {/* Info */}
           <div className="p-5 w-1/3 flex flex-col gap-2">
 
-            {/* SIngle Info */}
+            {/* SIngle Info 1 */}
             <div
               className="flex justify-between gap-5 w-full
               bg-white p-5 m-2 inner rounded-sm h-32 items-center"
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* SIngle Info */}
+            {/* SIngle Info 2 */}
             <div
               className="flex justify-between gap-5 w-full
               bg-white p-4 m-2 inner rounded-sm h-32 items-center"
@@ -58,7 +58,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* SIngle Info */}
+            {/* SIngle Info 3 */}
             <div
               className="flex justify-between gap-5 w-full
               bg-white p-4 m-2 inner rounded-sm h-32 items-center"
@@ -83,32 +83,72 @@ const Contact = () => {
 
           {/* Form */}
           <div className="p-5 w-2/3">
-            <form>
-              <div className='flex flex-col gap-5'>
-                <input
-                  className='form px-5 py-2 w-full text-md text-deep font-medium
+            <form className='flex flex-col'>
+
+              <h4 className='text-2xl py-2 text-deep font-alata px-5 mb-5'>
+                How Can I Help You?
+                <div className='border-b-3 border-orange2 w-10 pt-1'></div>
+              </h4>
+
+              <div className="flex justify-between gap-5">
+
+                {/* Inputs */}
+                <div className='flex flex-col gap-5 w-1/2 p-5'>
+                  <input
+                    className='form px-5 py-2 w-full text-md text-deep font-medium
                   focus:outline-none active:outline-none 
                   placeholder-gray-500'
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder='Name'
-                />
-                <input
-                  className='form px-5 py-2 w-full text-md text-deep font-normal'
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder='Name'
-                />
-                <input
-                  className='form px-5 py-2 w-full text-md text-deep font-normal'
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder='Name'
-                />
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder='Name'
+                  />
+                  <input
+                    className='form px-5 py-2 w-full text-md text-deep font-medium
+                  focus:outline-none active:outline-none 
+                  placeholder-gray-500'
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder='Email'
+                  />
+                  <input
+                    className='form px-5 py-2 w-full text-md text-deep font-medium
+                  focus:outline-none active:outline-none 
+                  placeholder-gray-500'
+                    type="text"
+                    id="Subject"
+                    name="subject"
+                    placeholder='Subject'
+                  />
+                </div>
+
+                {/* Textarea */}
+                <div className='w-1/2 p-5'>
+                  <textarea
+                    className='form px-5 py-2 w-full text-md text-deep font-medium
+                    focus:outline-none active:outline-none 
+                  placeholder-gray-500 h-40'
+                    id="message"
+                    name="message"
+                    placeholder='Message'
+                  />
+                </div>
+
+
               </div>
+
+              {/* Submit */}
+
+              <button
+                className='cursor-pointer w-40 mx-auto bg-gradient-to-r bg-orange2
+                text-white my-12
+                 px-2 py-2 rounded-md hover:bg-bluto
+                 transition duration-1000 ease-in-out'
+                type="submit"
+              >Send Message
+              </button>
+
             </form>
           </div>
         </div>

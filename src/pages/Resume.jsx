@@ -9,7 +9,7 @@ const Resume = () => {
 
         <Pagetitle title="RESUME" />
 
-        <div className='flex gap-5 justify-between items-center pb-20'>
+        <div className='flex gap-5 justify-between items-center pt-5 pb-20'>
           {/* Education */}
           <div className='w-1/2'>
             <h4 className='text-2xl py-2 text-deep'>

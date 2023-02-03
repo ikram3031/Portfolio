@@ -37,7 +37,9 @@ module.exports = {
         'para': '#42566A',
         'gbg': '#edefee',
         'pale-pink': '#FCE4EC',
-        'orange': '#ff5722'
+        'orange': '#ff5722',
+        'orange2': '#FD5D00',
+        'light-orange': '#F58544'
       },
       fontFamily: {
         'pop': ['Poppins', 'sans-serif'],

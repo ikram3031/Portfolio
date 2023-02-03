@@ -37,5 +37,16 @@
 }
 
 .form{
-    box-shadow: inset 3px 2px 10px rgba(1, 138, 190, 0.3);
+    box-shadow: 0px 1px 5px rgba(1, 138, 190, 0.3);
+
+}
+
+.form:focus, .form:active{
+    box-shadow: inset 3px 2px 5px rgba(1, 138, 190, 0.3);
+
+}
+
+/* MUI ICON */
+.mui{
+    font-size: 40px;
 }
