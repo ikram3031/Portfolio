@@ -12,11 +12,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Alata', sans-serif;;
 }
 
 .abstruct {
@@ -25,4 +20,22 @@ h1,h2,h3,h4,h5,h6{
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: inherit;
+}
+
+.inner{
+    cursor: pointer;
+    box-shadow: inset 3px 2px 10px rgba(1, 138, 190, 0.3);
+}
+
+.inner:hover {
+    /* box-shadow: 0px 5px 5px rgba(1, 138, 190, 0.5); */
+    
+
+    transition: box-shadow 0.5s;
+    box-shadow: inset 10px 10px 10px rgba(1, 138, 190, 0.3);
+    box-shadow: 0px 5px 5px rgba(1, 138, 190, 0.3);
+}
+
+.form{
+    box-shadow: inset 3px 2px 10px rgba(1, 138, 190, 0.3);
 }
