@@ -15,7 +15,8 @@ const Navbar = () => {
         {/* Nav Menu */}
         <div className='flex w-1/3 text-md justify-center gap-8 items-center cursor-pointer'>
           <Link to='/' >Home</Link>
-          <Link to='/' >Projects</Link>
+          <Link to='/resume' >Resume</Link>
+          <Link to='/projects' >Projects</Link>
           <Link to='/contact' >Contact</Link>
         </div>
 
