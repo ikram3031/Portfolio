@@ -33,13 +33,15 @@ module.exports = {
         'bluto': '#018abe',
         'bluform':'#02457a',
         'deep': '#1D344A',
-        'light': '#dfffed',
+        'light': '#ecf0f3',
         'para': '#42566A',
         'gbg': '#edefee',
         'pale-pink': '#FCE4EC',
         'orange': '#ff5722',
         'orange2': '#FD5D00',
-        'light-orange': '#F58544'
+        'light-orange': '#F58544',
+        'r': '#ff014f',
+        'b': '#1E2125'
       },
       fontFamily: {
         'pop': ['Poppins', 'sans-serif'],

@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <div>Button</div>
+    <Link to='/contact' className="pt-5 cursor-pointer w-40">
+      <span className='bg-gradient-to-r from-blu via-bluform to-bluto
+   text-light flex items-center justify-center
+    px-2 py-2 rounded-md hover:bg-bluto
+    transition duration-500 ease-in-out
+    '>
+        {props.text}
+      </span>
+    </Link>
   )
 }
 

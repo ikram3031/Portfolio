@@ -6,14 +6,14 @@ import { faMobileScreenButton, faEnvelope, faMapLocationDot } from '@fortawesome
 
 const Contact = () => {
   return (
-    <div className='py-20'>
+    <div className='pt-20'>
       <div className='container mx-auto '>
         <Pagetitle title="CONTACT" />
 
 
       </div>
       {/* Main Contact Section */}
-      <div className='bg-light  py-20'>
+      <div className='bg-light  p-20'>
         <div className="flex container mx-auto justify-between gap-5 items-center">
 
           {/* Info */}

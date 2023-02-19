@@ -4,7 +4,7 @@ import { faCode, faVectorSquare } from '@fortawesome/free-solid-svg-icons'
 
 const WhatDoIDo = () => {
   return (
-    <div className="bg-white py-20">
+    <div className="bg-light py-20">
     <div className='container mx-auto'>
 
       <h4 className='text-3xl flex flex-col items-center justify-center py-2 text-deep'>
