@@ -48,6 +48,9 @@ module.exports = {
         'os': ['Oswald', 'sans-serif'],
         'hand': ['Parisienne', 'cursive'],
         'alata': ['Alata', 'sans-serif'],
+      },
+      zIndex: {
+        '99': '99',
       }
     },
   },

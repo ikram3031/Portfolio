@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Sidebar from '../components/Sidebar';
 
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
@@ -9,6 +10,7 @@ const Navbar = () => {
     setSidebar(!sidebar);
     console.log(sidebar)
   };
+
 
   // Sticky Function
   useEffect(() => {
@@ -56,12 +58,9 @@ const Navbar = () => {
 
         {/* Sidebar */}
         {sidebar && (
-          <div className="sidebar">
-            <div className="bg-white p-4 rounded-md">
-              <p>Hi</p>
-            </div>
-          </div>
-        )}
+          <Sidebar setSidebar={setSidebar} />
+          )
+        }
 
       </div>
     </div >
