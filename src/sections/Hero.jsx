@@ -16,13 +16,13 @@ const Hero = () => {
 
   return (
 
-    <div className="w-4/5 mx-auto flex justify-between items-center py-10">
+    <div className="w-90  mx-auto flex justify-between items-center py-10">
 
       {/* Left */}
-      <div className="w-1/2 flex flex-col gap-5 p-4">
+      <div className="w-2/3 flex flex-col gap-5 p-4 mt-10 ml-10">
         <div className=''>
 
-          <span className='font-pop font-semibold text-6xl text-b'>
+          <span className='font-pop font-semibold text-6xl text-bl'>
             Hi, I'm <span className='text-r'>Ikramul</span><br></br>
             <span className=''>a &nbsp;</span>
             {/* <span className=' text-r ease-in-out animate-scale-50 duration-300'>{skills[skillIndex]}&nbsp; </span>Developer */}
@@ -31,7 +31,9 @@ const Hero = () => {
 
         </div>
         <span className="text-sm font-semibold text-para">
-          A full stack developer with a passion for creating <br></br>innovative and user-friendly applications
+          A skilled and enthusiastic full-stack developer with a passion for creating innovative and 
+          user-friendly applications. With a strong focus on delivering high-quality work, I am committed
+           to staying up-to-date with the latest trends and technologies in the field.
         </span>
         {/* Find me with */}
         <div>
@@ -53,10 +55,10 @@ const Hero = () => {
       </div>
 
       {/* Right */}
-      <div className="w-1/2 p-4">
+      <div className="w-1/3 p-4 ">
         <div className="border rounded-l-full rounded-r-lg
        w-80 mx-auto border-gray-100 bg-bluto shadow-2xl ">
-          <div >
+          <div className='flex  justify-end' >
             <img className='px-5 mx-5 mb-0 overflow-hidden relative' src={Ikram} alt="" />
           </div>
         </div>

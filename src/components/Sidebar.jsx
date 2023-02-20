@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Sidebar = ({ setSidebar = () => {} }) => {
+const Sidebar = ({ setSidebar = () => { } }) => {
 
-    // const { setSidebar } = props;
+    // If click outside the sidebar
+    useEffect(() => {
+        const handleOutsideClick = (event) => {
+            const sidebar = document.querySelector('.sidebar');
+            if (!sidebar.contains(event.target)) {
+                setSidebar(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleOutsideClick);
+        return () => {
+            document.removeEventListener('mousedown', handleOutsideClick);
+        };
+    }, [setSidebar]);
 
     return (
         <div className="sidebar absolute overflow-hidden z-99">
@@ -10,7 +23,7 @@ const Sidebar = ({ setSidebar = () => {} }) => {
                 <div className="flex text-para text-xl justify-between">
                     <span className='text-pop text-lg font-bold'>Get In Touch</span>
                     <button onClick={() => setSidebar(false)}>
-                        <i  className="fa-regular fa-rectangle-xmark"></i>
+                        <i className="fa-regular fa-rectangle-xmark"></i>
 
                     </button>
                 </div>

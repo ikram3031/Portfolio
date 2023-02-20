@@ -122,3 +122,35 @@
 .hight {
     min-height: 90vh;
   }
+
+  /* Single portfolio */
+  .single_portfolio{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  }
+
+  .btn{
+    background: linear-gradient(to right, #001b48, #018abe, #02457a);
+    /* background-color: #0c77f2; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 1s ease-in-out;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to right,  #0c77f2, #018abe, #1379cc);;
+  }
+
+  /* hero bg */
+  .hero-bg{
+    background-image: url('../src/uploads/herobg.jpg');
+    background-position: center;
+    background-size: contain;
+  }

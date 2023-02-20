@@ -19,9 +19,10 @@ module.exports = {
         maxWidth: '1200px',
       },
       width: {
-        '90': '90%',
+        '90': '1200px',
         '95': '95%',
         '70': '70%',
+        '50': '50%'
       },
       maxWidth: {
         'l0p': '1280px',
@@ -41,7 +42,10 @@ module.exports = {
         'orange2': '#FD5D00',
         'light-orange': '#F58544',
         'r': '#ff014f',
-        'b': '#1E2125'
+        'b': '#1E2125',
+        'bl': '#3c3e41',
+        'bg': '#ecf0f3',
+        'port': '#e5ebee'
       },
       fontFamily: {
         'pop': ['Poppins', 'sans-serif'],
