@@ -16,10 +16,10 @@ const Hero = () => {
 
   return (
 
-    <div className="w-90  mx-auto flex justify-between items-center py-10">
+    <div className="w-90   mx-auto flex justify-between items-center py-10">
 
       {/* Left */}
-      <div className="w-2/3 flex flex-col gap-5 p-4 mt-10 ml-10">
+      <div className="w-2/3  flex flex-col gap-5 p-4 mt-10 ml-10">
         <div className=''>
 
           <span className='font-pop font-semibold text-6xl text-bl'>

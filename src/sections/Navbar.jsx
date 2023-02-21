@@ -27,8 +27,8 @@ const Navbar = () => {
 
 
   return (
-    < div className={`bg-gradient-to-r nav from-blu via-blufrom to-bluto ${isSticky ? 'sticky' : ''}`}>
-      <div className='w-90 mx-auto flex justify-between items-center'>
+    < div className={`bg-gradient-to-r w-full nav  from-blu via-blufrom to-bluto ${isSticky ? 'sticky' : ''}`}>
+      <div className='w-90 mx-auto flex justify-between items-center '>
         <div className="w-90 py-6 mx-auto  flex justify-between items-center text-gray-100">
           {/* Logo */}
           <div className="w-1/4 cursor-pointer">
@@ -65,7 +65,26 @@ const Navbar = () => {
 
         </div>
       </div >
+
+      {/* Mobile Nav */}
+      {/* <div className={`sm:w-full bg-gradient-to-r nav from-blu via-blufrom py-4 px-2 to-bluto ${isSticky ? 'sticky' : ''}`}>
+        <div className="flex justify-between items-center">
+
+          <div className="w-1/2 cursor-pointer">
+            <Link to='/' className='text-xl text-white font-hand '>
+              Ikramul Hossen
+            </Link >
+          </div>
+
+
+          <div className='text-white hover:text-bg'>
+            <i className="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+      </div> */}
     </div >
+
   )
 }
 

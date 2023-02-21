@@ -148,9 +148,3 @@
     background: linear-gradient(to right,  #0c77f2, #018abe, #1379cc);;
   }
 
-  /* hero bg */
-  .hero-bg{
-    background-image: url('../src/uploads/herobg.jpg');
-    background-position: center;
-    background-size: contain;
-  }
