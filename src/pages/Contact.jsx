@@ -6,7 +6,7 @@ import { faMobileScreenButton, faEnvelope, faMapLocationDot } from '@fortawesome
 
 const Contact = () => {
   return (
-    <div className='pt-20'>
+    <div className=''>
       <div className='container mx-auto '>
         <Pagetitle title="CONTACT" />
 

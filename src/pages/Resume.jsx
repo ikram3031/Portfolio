@@ -3,13 +3,13 @@ import Pagetitle from '../components/Pagetitle'
 
 const Resume = () => {
   return (
-    <div className='py-20'>
+    <div className=''>
 
       <div className='container mx-auto '>
 
         <Pagetitle title="RESUME" />
 
-        <div className='flex gap-5 justify-between items-center pt-5 pb-20'>
+        <div className='flex w-90 mx-auto gap-5 justify-between items-center pt-5 pb-20'>
           {/* Education */}
           <div className='w-1/2'>
             <h4 className='text-2xl py-2 text-deep'>
