@@ -89,6 +89,15 @@
     color: white;
 }
 
+.social-white{
+    box-shadow: 5px 5px 15px #afceff, -5px -5px 15px #ffffff;
+}
+
+.social-white:hover {
+    background: linear-gradient(145deg, #e0fcf3, #e0fcf3, #e0fcf3);
+    color: #02457a;
+}
+
 /* Stciky Header */
 
 .nav{

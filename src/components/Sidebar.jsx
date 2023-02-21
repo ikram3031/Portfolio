@@ -28,6 +28,7 @@ const Sidebar = ({ setSidebar = () => { } }) => {
                     </button>
                 </div>
 
+                {/* Social Icons */}
                 <div className='flex gap-5 my-2 align-center text-para'>
                     <a className='py-4 px-5 social rounded-sm ' href="https://www.facebook.com/ikram3031 " target="_blank">
                         <i className="h-6 fa-brands fa-facebook-f"></i>
