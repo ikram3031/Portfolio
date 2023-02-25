@@ -47,6 +47,7 @@ const Sidebar = ({ setSidebar = () => { } }) => {
                     </a>
                 </div>
 
+                {/* Info */}
                 <div className='text-para font-semibold text-os'>
                     Email:
                     <a className='text-blu' href="mailto: ikramul.web@gmail.com"> ikramul.web@gmail.com</a>

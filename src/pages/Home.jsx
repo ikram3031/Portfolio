@@ -11,12 +11,12 @@ const Home = () => {
 
 
       {/* HEro section */}
-      <Hero />
+      {/* <Hero /> */}
 
       {/* What DO I DO */}
-      <WhatDoIDo />
+      {/* <WhatDoIDo /> */}
 
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       
     </div>
   )

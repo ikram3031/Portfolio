@@ -1,0 +1,113 @@
+.nav {
+    width: 100%;
+    background: linear-gradient(to right, #001b48, #02457a, #018abe);
+
+    .nav_container {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+
+        // Main Nav
+        .main_nav {
+            width: 100%;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #f7fafc;
+
+            .nav_logo {
+                width: 25%;
+                cursor: pointer;
+
+                .name {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+
+        .nav_menu {
+            display: flex;
+            width: 25%;
+            justify-content: center;
+            gap: 2rem;
+            align-items: center;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .nav_button {
+            display: flex;
+            width: 25%;
+            justify-content: flex-end;
+            font-size: 1.5rem;
+
+            .nav_btn_icon {
+                color: #001b48;
+                background-color: #ecf0f3;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: background-color 0.2s ease, color 0.2s ease;
+            }
+
+            .nav_btn_icon:hover {
+                color: #1d344a;
+                background-color: #ffffff;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .nav_menu,
+            .nav_logo,
+            .nav_button {
+                display: none;
+            }
+        }
+
+        // Mobile Logo
+        .mobile_logo{
+            font-size: 1.5rem;
+        }
+        @media (min-width: 769px) {
+            .mobile_logo{
+                display: none;
+            }
+        }
+
+        // Mobile nav
+        .mobile_button {
+            display: flex;
+            width: 25%;
+            justify-content: flex-end;
+            font-size: 1.5rem;
+
+            .nav_btn_icon {
+                color: #001b48;
+                background-color: #ecf0f3;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: background-color 0.2s ease, color 0.2s ease;
+            }
+        }
+
+        @media (min-width: 769px) {
+
+            .mobile_button {
+                display: none;
+            }
+        }
+    }
+
+
+
+}
+
+.sticky {
+    .sticky {
+        position: fixed;
+        top: 0;
+    }
+}

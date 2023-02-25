@@ -16,8 +16,7 @@ const Hero = () => {
 
   return (
 
-    <div className="w-1200 sm:w-600 mx-auto flex
-    sm:flex-col
+    <div className="max-w-1200 sm:max-w-600 sm:flex-col mx-auto flex
      justify-between items-center py-10"
     >
 
