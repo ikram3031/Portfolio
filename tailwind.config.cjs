@@ -5,6 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    },
     extend: {
       borderWidth: {
         DEFAULT: '1px',
@@ -19,10 +25,11 @@ module.exports = {
         maxWidth: '1200px',
       },
       width: {
-        '90': '1200px',
-        '60px': '600px',
-        '95': '95%',
-        '70': '70%',
+        '1200': '1200px',
+        '600': '600px',
+        '700': '700px',
+        '1000': '1000px',
+        '90': '90%',
         '50': '50%'
       },
       height: {

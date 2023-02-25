@@ -16,10 +16,13 @@ const Hero = () => {
 
   return (
 
-    <div className="w-90   mx-auto flex justify-between items-center py-10">
+    <div className="w-1200 sm:w-600 mx-auto flex
+    sm:flex-col
+     justify-between items-center py-10"
+    >
 
       {/* Left */}
-      <div className="w-2/3  flex flex-col gap-5 p-4 mt-10 ml-10">
+      <div className="w-2/3  flex  flex-col gap-5 p-4 mt-10 ml-10">
         <div className=''>
 
           <span className='font-pop font-semibold text-6xl text-bl'>
@@ -31,9 +34,9 @@ const Hero = () => {
 
         </div>
         <span className="text-sm font-semibold text-para">
-          A skilled and enthusiastic full-stack developer with a passion for creating innovative and 
+          A skilled and enthusiastic full-stack developer with a passion for creating innovative and
           user-friendly applications. With a strong focus on delivering high-quality work, I am committed
-           to staying up-to-date with the latest trends and technologies in the field.
+          to staying up-to-date with the latest trends and technologies in the field.
         </span>
         {/* Find me with */}
         <div>
