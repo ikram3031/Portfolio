@@ -27,7 +27,7 @@
             border-radius: 50%;
         }
 
-        .mobile_nav_menu{
+        .mobile_nav_menu {
             display: flex;
             flex-direction: column;
             width: 80%;
@@ -43,4 +43,29 @@
     }
 
 
+}
+
+/* Sidebar */
+
+.sidebar {
+    max-width: 1240px;
+    margin: 0 1rem;
+    position: fixed;
+    overflow: hidden;
+    z-index: 99;
+    // top: 0;
+
+    .sidebar_container {
+        position: fixed;
+        top: 34px;
+        left: 70vw;
+
+        margin: 0 1rem;
+        height: 40vh;
+        width: 300px;
+        background-color: #fff;
+        transition: right 0.3s ease-in-out;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px #567189;
+    }
 }

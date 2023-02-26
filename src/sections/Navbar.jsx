@@ -11,12 +11,13 @@ const Navbar = () => {
 
   const handleSidebar = () => {
     setSidebar(!sidebar);
-    console.log(sidebar)
+    // sidebar = !sidebar
+    console.log(`Sidebar is : ${sidebar}`)
   };
 
   const handleMobileBar = () => {
     setMobileBar(!mobileBar);
-    console.log(mobileBar)
+    // console.log(mobileBar)                             n
   };
 
 
