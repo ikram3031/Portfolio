@@ -50,7 +50,6 @@ module.exports = {
         'bluform':'#02457a',
         'deep': '#1D344A',
         'light': '#ecf0f3',
-        'para': '#42566A',
         'gbg': '#edefee',
         'pale-pink': '#FCE4EC',
         'orange': '#ff5722',
