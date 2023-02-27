@@ -18,6 +18,17 @@
     font-family: 'Parisienne', 'cursive';
 }
 
+.p5{
+    padding: 5px;
+}
+
+.underline{
+    border-bottom: 4px solid $medium;
+    width: 3rem;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
 .social_icons {
     display: flex;
     gap: 5px;

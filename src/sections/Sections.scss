@@ -130,6 +130,8 @@
     }
 }
 
+// HERO
+
 .hero {
     max-width: 1240px;
     margin: 0 auto;
@@ -247,7 +249,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .hero {
         justify-content: space-between;
         align-items: center;
@@ -269,4 +271,68 @@
             }
         }
     }
+}
+
+// What I Do
+.what_i_do {
+    background-color: $light;
+    padding: 3rem 0;
+    width: 1280px;
+    margin: 0 auto;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0;
+
+        h4 {
+            font-size: 2.5rem;
+            color: $dark;
+            font-family: $alata;
+        }
+
+
+        .what_main {
+            // flex justify-start items-top 
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+
+            .what_left,
+            .what_right {
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+                padding: 1.25rem;
+                margin: 2rem auto;
+                width: 80%;
+                background-color: #f7fafc;
+                border-radius: 10px;
+                height: 300px;
+
+                .what_icon {
+                    color: $orange;
+                }
+
+                .what_title {
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                }
+
+                .what_para{
+                    font-size: 0.9rem; 
+                    color: $medium; 
+                    padding-top: 1.25rem; 
+                    font-family: $poppins;
+                    font-weight: 400;
+                    width: 80%; 
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+
 }
