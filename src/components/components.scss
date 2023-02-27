@@ -69,3 +69,13 @@
         box-shadow: 0px 0px 10px 0px #567189;
     }
 }
+
+.copyright {
+    background-color: $dark;
+    color: #fff;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}

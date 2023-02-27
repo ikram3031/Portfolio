@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './components.scss'
 
 const Copyright = () => {
   return (
-    <div className='bg-deep text-light text-sm flex items-center justify-center py-1'>Copywright 2023</div>
+    <div className='copyright'>&copy;Copyright 2023</div>
   )
 }
 

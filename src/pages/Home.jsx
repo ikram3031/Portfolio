@@ -11,12 +11,12 @@ const Home = () => {
       <div className='home_container '>
 
         {/* HEro section */}
-        {/* <Hero /> */}
+        <Hero />
 
         {/* What DO I DO */}
         <WhatDoIDo />
 
-        {/* <PortfolioSection /> */}
+        <PortfolioSection />
       </div>
     </div>
   )
