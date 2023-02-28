@@ -203,12 +203,6 @@
 }
 
 
-/* Single portfolio */
-.single_portfolio {
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-}
-
 .btn {
     background: linear-gradient(to right, #001b48, #018abe, #02457a);
     /* background-color: #0c77f2; */
@@ -226,5 +220,7 @@
 
 .btn:hover {
     background: linear-gradient(to right, #0c77f2, #018abe, #1379cc);
-    ;
 }
+
+
+
