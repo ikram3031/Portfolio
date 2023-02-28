@@ -37,7 +37,8 @@
             gap: 2rem;
             align-items: center;
             cursor: pointer;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            font-family: $alata;
         }
 
         .nav_button {
@@ -385,7 +386,7 @@
 // Portfolio Section
 .portfolio {
     width: 90%;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -479,6 +480,7 @@
         max-width: 480px;
         margin: 0 auto;
         padding: 0.5rem;
+
         .single1 {
             flex-direction: column;
             align-items: center;
@@ -492,11 +494,11 @@
                 width: 90%;
                 padding: 1rem 5px;
 
-                h5{
+                h5 {
                     font-size: 25px;
                 }
 
-                img{
+                img {
                     height: 400px;
                     // object-fit: cover;
                 }
@@ -525,11 +527,11 @@
                 width: 100%;
                 padding: 1rem;
 
-                h5{
+                h5 {
                     font-size: 30px;
                 }
 
-                img{
+                img {
                     height: 400px;
                     // object-fit: cover;
                 }
@@ -539,7 +541,227 @@
 
 }
 
+// Resume
+.resume {
+    background-color: $light;
+    padding: 3rem 0;
+
+    .resume_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 1rem;
 
 
+        .resume_section {
+            width: 100%;
 
+            // background-color: #001b48;
+            h4 {
+                color: $black;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                font-size: 1.8rem;
+            }
 
+            .resume_part {
+                display: flex;
+                flex-direction: column;
+
+                .part_top {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 4px;
+                    padding-top: 5px;
+
+                    .part_date {
+                        border-radius: 2rem;
+                        padding-left: 0.75rem;
+                        padding-right: 0.75rem;
+                        padding-top: 0.25rem;
+                        padding-bottom: 0.25rem;
+                        border: 2px solid $normal;
+                        font-size: 0.875rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        color: #333333;
+                    }
+
+                    span {
+                        margin-left: 1rem;
+                        font-size: 1rem;
+                        color: $dark;
+                    }
+                }
+
+                .part_bottom {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    max-width: 80%;
+                    margin: 0.5rem auto;
+
+                    h5 {
+                        font-family: $alata;
+                        text-align: center;
+                        color: $dark;
+                        font-size: 1.1rem;
+                        // margin-left: 5px;
+                    }
+
+                    span {
+                        color: rgb(107 114 128);
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.resume_skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: light;
+    padding-top: 32px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: white;
+
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $dark;
+    }
+
+    .skills_inner {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        max-width: 1000px;
+        /* Replace with your desired container width */
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        font-family: 'Alata', sans-serif;
+
+        .skills_left,
+        .skills_right {
+            width: 500px;
+            padding: 10px;
+            // background-color: #001b48;
+
+            .prog {
+                height: 5px;
+                background-color: $dark;
+
+                div {
+                    width: 75%;
+                    height: 3px;
+                    background-color: #afceff;
+                }
+            }
+
+            .single_skill {
+                margin: 3px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                .skill {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+
+                    h5 {
+                        font-family: $alata;
+                        font-size: 0.9rem;
+                        font-weight: 600;
+                        color: $dark;
+                    }
+
+                    span {
+                        color: rgb(107 114 128);
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .progress_bar {
+                width: 100%;
+                background-color: rgb(214, 214, 214);
+                height: 8px;
+                border-radius: 5px;
+                padding: 1px;
+
+                .progress {
+                    width: 100%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress90 {
+                    width: 90%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress95 {
+                    width: 95%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress70 {
+                    width: 70%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress75 {
+                    width: 75%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress65 {
+                    width: 65%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+
+                .progress80 {
+                    width: 80%;
+                    background-color: $normal;
+                    height: 5px;
+                    margin: 1px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

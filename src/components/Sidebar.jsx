@@ -22,42 +22,44 @@ const Sidebar = ({ setSidebar = () => { } }) => {
 
         <div className="sidebar">
             <div className="sidebar_container">
-                <div className="bg-white p-4 rounded-md flex flex-col align-center justify-center gap-5">
-                    <div className="flex text-para text-xl justify-between">
+
+                <div className="sidebar_main">
+
+                    {/* Top */}
+                    <div className="sidebar_top">
                         <span className='text-pop text-lg font-bold'>Get In Touch</span>
                         <button onClick={() => setSidebar(false)}>
                             <i className="fa-regular fa-rectangle-xmark"></i>
-
                         </button>
                     </div>
 
                     {/* Social Icons */}
-                    <div className='flex gap-5 my-2 align-center text-para'>
-                        <a className='py-4 px-5 social rounded-sm ' href="https://www.facebook.com/ikram3031 " target="_blank">
+                    <div className='sidebar_social'>
+                        <a className='  social ' href="https://www.facebook.com/ikram3031 " target="_blank">
                             <i className="h-6 fa-brands fa-facebook-f"></i>
                         </a>
-                        <a target="_blank" className='py-4 px-5 social rounded-sm' href="https://www.linkedin.com/in/ikramul-hossen-545a43206/">
+                        <a target="_blank" className='social' href="https://www.linkedin.com/in/ikramul-hossen-545a43206/">
                             <i className="h-6 fa-brands fa-linkedin-in"></i>
                         </a>
-                        <a target="_blank" className='py-4 px-5 social rounded-sm' href="https://api.whatsapp.com/send?phone=+8801784220265&text=Hi%20there!%20I%20have%20a%20question%20:)">
+                        <a target="_blank" className='social' href="https://api.whatsapp.com/send?phone=+8801784220265&text=Hi%20there!%20I%20have%20a%20question%20:)">
 
                             <i className="h-6 fa-brands fa-whatsapp"></i>
                         </a>
 
-                        <a target="_blank" className='py-4 px-5 social rounded-sm' href="mailto: ikramul.web@gmail.com">
+                        <a target="_blank" className='social' href="mailto:ikramul.web@gmail.com">
 
                             <i class="h-6 fa-solid fa-at"></i>
                         </a>
                     </div>
 
                     {/* Info */}
-                    <div className='text-para font-semibold text-os'>
+                    <div className='sidebar_info'>
                         Email:
-                        <a className='text-blu' href="mailto: ikramul.web@gmail.com"> ikramul.web@gmail.com</a>
+                        <a href="mailto:ikramul.web@gmail.com"> ikramul.web@gmail.com</a>
                     </div>
-                    <div className='text-para font-semibold text-os'>
+                    <div className='sidebar_info'>
                         Phone:
-                        <a className='text-blu' href="tel: +8801784220265"> +8801784220265</a>
+                        <a  href="tel: +8801784220265"> +8801784220265</a>
                     </div>
                 </div>
             </div>

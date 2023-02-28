@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div className='home '>
       <div className='home_container '>
-        <PortfolioSection />
 
         {/* HEro section */}
         <Hero />
@@ -18,6 +17,7 @@ const Home = () => {
         <WhatDoIDo />
 
         {/* <PortfolioSection /> */}
+        <PortfolioSection />
       </div>
     </div>
   )

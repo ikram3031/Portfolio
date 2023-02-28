@@ -3,7 +3,6 @@ import Img from '../uploads/southeast.png';
 import Img2 from '../uploads/admedi.png';
 import Img3 from '../uploads/snpcons.png';
 import Img4 from '../uploads/diamond.png';
-import { Link } from 'react-router-dom';
 import './Sections.scss';
 
 const SinglePortfolio = () => {

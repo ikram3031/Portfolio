@@ -6,6 +6,7 @@ import Resume from "./pages/Resume";
 import Projects from './pages/Projects';
 import Navbar from './sections/Navbar';
 import Footer from './sections/Footer';
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </BrowserRouter >

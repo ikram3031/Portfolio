@@ -12,7 +12,7 @@ const PortfolioSection = () => {
             </h2>
 
             <SinglePortfolio/>
-
+            
         </div>
     )
 }

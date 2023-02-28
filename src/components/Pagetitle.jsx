@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './components.scss'
 
 const Pagetitle = (props) => {
     return (
-
-        <div className='font-pop font-semibold text-4xl border-b border-gray-200
-         text-deep py-10 w-90 mx-auto'>
+        <div className='page_title'>
             {props.title}
         </div>
     )

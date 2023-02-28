@@ -29,6 +29,22 @@
     margin: 0 auto;
 }
 
+.underline2{
+    border-bottom: 3px solid $normal;
+    padding: 1px;
+    width: 10%;
+
+}
+
+//   @keyframes progress {
+//     0% {
+//       width: 0%;
+//     }
+//     100% {
+//       width: 100%;
+//     }
+//   }
+
 .social_icons {
     display: flex;
     gap: 5px;
@@ -57,13 +73,11 @@
 }
 
 .social {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:1rem 1.3rem;
     box-shadow: 5px 5px 15px #afceff, -5px -5px 15px #ffffff;
+    color: $black;
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+    border-radius: 5px;
 }
 
 .social:hover {

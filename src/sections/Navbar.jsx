@@ -7,7 +7,7 @@ import './Sections.scss'
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
   const [sidebar, setSidebar] = useState(false);
-  const [mobileBar, setMobileBar ] = useState(false)
+  const [mobileBar, setMobileBar] = useState(false)
 
   const handleSidebar = () => {
     setSidebar(!sidebar);
@@ -51,8 +51,11 @@ const Navbar = () => {
           <div className='nav_menu'>
             <Link to='/' >Home</Link>
             <Link to='/resume' >Resume</Link>
+            <Link to='/portfolio' >Portfolio</Link>
             <Link to='/projects' >Projects</Link>
             <Link to='/contact' >Contact</Link>
+
+
           </div>
 
           {/*Main Button */}
@@ -91,7 +94,7 @@ const Navbar = () => {
           {/* Mobile BAr */}
           {
             mobileBar && (
-              <MobileMenu setMobileBar={setMobileBar}/>
+              <MobileMenu setMobileBar={setMobileBar} />
             )
           }
 
