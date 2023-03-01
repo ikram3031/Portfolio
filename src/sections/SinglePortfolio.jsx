@@ -24,7 +24,7 @@ const SinglePortfolio = () => {
                             Client: &nbsp;
                             <span>SNP Group</span>
                         </div>
-                        <div className='font-pop text-base font-normal py-5'>
+                        <div className='single_topic'>
                             Date:&nbsp;
                             <span >11-10-2022</span>
                         </div>
@@ -35,7 +35,7 @@ const SinglePortfolio = () => {
                     </span>
 
 
-                    <a href='http://snpconstruction.org/'>
+                    <a target='blank' href='http://snpconstruction.org/'>
                         <span className='btn'
                         >
                             View Live
@@ -70,7 +70,7 @@ const SinglePortfolio = () => {
                             Client: &nbsp;
                             <span>Snp Manpower Agency </span>
                         </div>
-                        <div className='font-pop text-base font-normal py-5'>
+                        <div className='single_topic'>
                             Date:&nbsp;
                             <span >17-02-2023</span>
                         </div>
@@ -81,7 +81,7 @@ const SinglePortfolio = () => {
                     </span>
 
 
-                    <a href='https://southeastasiamanpower.com/'>
+                    <a target='blank' href='https://southeastasiamanpower.com/'>
                         <span className='btn'
                         >
                             View Live
@@ -106,7 +106,7 @@ const SinglePortfolio = () => {
                             Client: &nbsp;
                             <span>Kh Shawon Ahmed</span>
                         </div>
-                        <div className='font-pop text-base font-normal py-5'>
+                        <div className='single_topic'>
                             Date:&nbsp;
                             <span >27-02-2023</span>
                         </div>
@@ -117,7 +117,7 @@ const SinglePortfolio = () => {
                     </span>
 
 
-                    <a href='https://admedi.net/'>
+                    <a target='blank' href='https://admedi.net/'>
                         <span className='btn'
                         >
                             View Live
@@ -152,7 +152,7 @@ const SinglePortfolio = () => {
                             Client: &nbsp;
                             <span>Orion Graphics</span>
                         </div>
-                        <div className='font-pop text-base font-normal py-5'>
+                        <div className='single_topic'>
                             Date:&nbsp;
                             <span >27-05-2022</span>
                         </div>
@@ -163,7 +163,7 @@ const SinglePortfolio = () => {
                     </span>
 
 
-                    <a href='https://mydiamondpaintingstore.com/'>
+                    <a target='blank' href='https://mydiamondpaintingstore.com/'>
                         <span className='btn'
                         >
                             View Live

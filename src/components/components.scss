@@ -143,3 +143,10 @@
     margin: 0 auto;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .page_title{
+        font-size: 2rem;
+    }
+}
+

@@ -108,10 +108,7 @@
                         padding: 1.25rem;
 
                         input {
-                            padding-left: 1.25rem;
-                            padding-right: 1.25rem;
-                            padding-top: 0.5rem;
-                            padding-bottom: 0.5rem;
+                            padding: 0.5rem 1.25rem;
                             width: 100%;
                             font-size: 1rem;
                             color: #1A2B42;
@@ -164,7 +161,7 @@
                     width: 10rem;
                     margin-left: auto;
                     margin-right: auto;
-                    background-image: linear-gradient(to right, #F97316, #FFA500);
+                    background-image: linear-gradient(to right, #F97316, $orange);
                     color: #fff;
                     margin-top: 3rem;
                     padding: 0.5rem;
@@ -178,5 +175,119 @@
 
             }
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .contact_main{
+        max-width: 400px;
+
+        .contact_container{
+            flex-direction: column;
+
+            .contact_left,
+            .contact_right{
+                width: 100%;
+            }
+
+            .contact_left{
+                .single_info{
+                    padding: 1rem;
+                }
+            }
+
+            .contact_right{
+                form{
+                    .form_area{
+                        flex-direction: column;
+
+                        .form_inputs,
+                        .form_text{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .contact_main{
+        max-width: 600px;
+
+        .contact_container{
+            flex-direction: column;
+
+            .contact_left,
+            .contact_right{
+                width: 100%;
+            }
+
+            .contact_left{
+                .single_info{
+                    padding: 1rem;
+                }
+            }
+
+            .contact_right{
+                form{
+                    .form_area{
+                        flex-direction: column;
+
+                        .form_inputs,
+                        .form_text{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 1080px) {
+    .contact_main{
+        max-width: 760px;
+
+        .contact_container{
+            // flex-direction: column;
+
+            .contact_left{
+                width: 45%;
+            }
+            .contact_right{
+                width: 55%;
+            }
+
+            .contact_left{
+                .single_info{
+                    padding: 1rem;
+                }
+            }
+
+            .contact_right{
+                form{
+                    .form_area{
+                        flex-direction: column;
+
+                        .form_inputs,
+                        .form_text{
+                            width: 100%;
+                        }
+
+                        .form_text{
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+
+
     }
 }
