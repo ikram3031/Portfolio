@@ -14,7 +14,6 @@ const Hero = () => {
     return () => clearInterval(intervalId);
   }, [skillIndex, skills.length]);
 
-
   return (
 
     <div className="hero"

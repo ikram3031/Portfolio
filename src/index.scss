@@ -14,12 +14,20 @@
 }
 
 // Variables
+.bg{
+    background-color: $light;
+}
+
 .font-hand {
     font-family: 'Parisienne', 'cursive';
 }
 
 .p5{
     padding: 5px;
+}
+
+.w30{
+    width: 30px;
 }
 
 .underline{
@@ -31,6 +39,13 @@
 
 .underline2{
     border-bottom: 3px solid $normal;
+    padding: 1px;
+    width: 10%;
+
+}
+
+.underline3{
+    border-bottom: 3px solid $orange;
     padding: 1px;
     width: 10%;
 
@@ -129,13 +144,11 @@
 .inner {
     cursor: pointer;
     box-shadow: inset 3px 2px 10px rgba(1, 138, 190, 0.3);
+    transition: box-shadow 1000ms ease-in-out;
 }
 
 .inner:hover {
     /* box-shadow: 0px 5px 5px rgba(1, 138, 190, 0.5); */
-
-
-    transition: box-shadow 0.5s;
     box-shadow: inset 10px 10px 10px rgba(1, 138, 190, 0.3);
     box-shadow: 0px 5px 5px rgba(1, 138, 190, 0.3);
 }

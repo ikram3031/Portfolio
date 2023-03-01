@@ -13,10 +13,10 @@ const MobileMenu = ({ setMobileBar = () => { } }) => {
 
         {/* Menu */}
         <div className='mobile_nav_menu'>
-          <Link to='/' >Home</Link>
-          <Link to='/resume' >Resume</Link>
-          <Link to='/projects' >Projects</Link>
-          <Link to='/contact' >Contact</Link>
+          <Link onClick={() => setMobileBar(false)} to='/' >Home</Link>
+          <Link onClick={() => setMobileBar(false)} to='/portfolio' >Portfolio</Link>
+          <Link onClick={() => setMobileBar(false)} to='/projects' >Projects</Link>
+          <Link onClick={() => setMobileBar(false)} to='/contact' >Contact</Link>
         </div>
 
         {/* Social Icons */}
