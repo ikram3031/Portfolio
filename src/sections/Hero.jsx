@@ -49,6 +49,10 @@ const Hero = () => {
             <a target="_blank" className='social_icon' href="https://www.linkedin.com/in/ikramul-hossen-545a43206/">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
+            <a target="_blank" className='social_icon' href="https://github.com/ikram3031">
+
+              <i class="fa-brands fa-github"></i>
+            </a>
             <a target="_blank" className='social_icon' href="https://api.whatsapp.com/send?phone=+8801784220265&text=Hi%20there!%20I%20have%20a%20question%20:)">
 
               <i className="fa-brands fa-whatsapp"></i>

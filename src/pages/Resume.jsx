@@ -60,6 +60,25 @@ const Resume = () => {
               <div className='underline2'></div>
             </h4>
 
+            {/* Codemen */}
+            <div className='resume_part'>
+
+              <div className="part_top">
+                <div
+                  className='part_date'
+                >
+                  May, 2023 - Nov, 2023
+                </div>
+                <span >Codemen Solutions LTD</span>
+              </div>
+
+              <div className='part_bottom'>
+                <h5 >Associate Software Engineer</h5>
+                <span> Dhaka, Bangladesh</span>
+              </div>
+
+            </div>
+
             {/* Softlab */}
             <div className='resume_part'>
 
@@ -78,23 +97,7 @@ const Resume = () => {
               </div>
 
             </div>
-            {/* Yrban */}
-            <div className='resume_part'>
 
-              <div className="part_top">
-                <div
-                  className='part_date'
-                >
-                  Jan, 2022 - Apr, 2022
-                </div>
-                <span >Yrban Tech</span>
-              </div>
-
-              <div className='part_bottom'>
-                <h5>Frontend Developer</h5>
-                <span>Rajshahi, Bangladesh</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -167,8 +170,8 @@ const Resume = () => {
             <div className='single_skill'>
 
               <div className="skill">
-                <h5 >Angular</h5>
-                <span>65%</span>
+                <h5 >Next js</h5>
+                <span>70%</span>
               </div>
 
               <div className='progress_bar'>

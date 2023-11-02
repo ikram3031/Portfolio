@@ -2,7 +2,7 @@ import React from 'react';
 import Img from '../uploads/southeast.png';
 import Img2 from '../uploads/admedi.png';
 import Img3 from '../uploads/snpcons.png';
-import Img4 from '../uploads/diamond.png';
+import Img4 from '../uploads/ads.png';
 import './Sections.scss';
 
 const SinglePortfolio = () => {
@@ -143,18 +143,18 @@ const SinglePortfolio = () => {
                 {/* Right */}
                 <div className='single_left'>
                     <h5>
-                        Diamond Painting Agency Website
+                        IT Company Website
                     </h5>
 
                     {/* Details */}
                     <div className="single_details">
                         <div className='single_topic'>
                             Client: &nbsp;
-                            <span>Orion Graphics</span>
+                            <span>MD Jesan</span>
                         </div>
                         <div className='single_topic'>
                             Date:&nbsp;
-                            <span >27-05-2022</span>
+                            <span >27-09-2023</span>
                         </div>
                     </div>
                     <span className='single_topic'>
@@ -163,7 +163,7 @@ const SinglePortfolio = () => {
                     </span>
 
 
-                    <a target='blank' href='https://mydiamondpaintingstore.com/'>
+                    <a target='blank' href='https://adsandwebdesigningorganizationbd.com/'>
                         <span className='btn'
                         >
                             View Live
