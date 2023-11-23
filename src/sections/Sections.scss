@@ -31,18 +31,18 @@
 
             .nav_menu {
                 display: flex;
-                width: 25%;
+                width: 45%;
                 justify-content: center;
                 gap: 2rem;
                 align-items: center;
                 cursor: pointer;
                 font-size: 1rem;
-                font-family: $alata;
+                font-family: $alata;                             
             }
 
             .nav_button {
                 display: flex;
-                width: 25%;
+                width: 15%;
                 justify-content: flex-end;
                 font-size: 1.5rem;
 
@@ -634,6 +634,14 @@
                     span {
                         color: rgb(107 114 128);
                         font-size: 0.8rem;
+                    }
+                    
+                    p{
+                        font-family: $alata;
+                        text-align: center;
+                        color: $dark;
+                        font-size: 1rem;
+                        font-weight: lighter;
                     }
                 }
             }

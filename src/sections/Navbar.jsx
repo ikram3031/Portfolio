@@ -53,9 +53,8 @@ const Navbar = () => {
             <Link to='/resume' >Resume</Link>
             <Link to='/portfolio' >Portfolio</Link>
             <Link to='/projects' >Projects</Link>
-            <Link to='/contact' >Contact</Link>
-
-
+            <Link to='/contact' >Contact</Link>   
+            <a href="https://drive.google.com/file/d/1E2F0nuP6KdMBGEh0YAwy9-qXlVNHAONw/view?usp=sharing" target='blank'>View Resume</a>         
           </div>
 
           {/*Main Button */}
