@@ -67,7 +67,7 @@ const Resume = () => {
                 <div
                   className='part_date'
                 >
-                  Dec, 2022 - Nov, 2023
+                  Dec, 2022 - Current
                 </div>
                 <span >Codemen Solutions LTD</span>
               </div>
