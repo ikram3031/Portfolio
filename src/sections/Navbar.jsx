@@ -54,7 +54,7 @@ const Navbar = () => {
             <Link to='/portfolio' >Portfolio</Link>
             <Link to='/projects' >Projects</Link>
             <Link to='/contact' >Contact</Link>   
-            <a href="https://drive.google.com/file/d/1E2F0nuP6KdMBGEh0YAwy9-qXlVNHAONw/view?usp=sharing" target='blank'>View Resume</a>         
+            <a href="https://drive.google.com/file/d/1bddWrw46b8LUrviGT6wP8QvhnHSSl2CK/view?usp=drive_link" target='blank'>View Resume</a>         
           </div>
 
           {/*Main Button */}
