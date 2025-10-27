@@ -67,7 +67,7 @@ const Resume = () => {
                 <div
                   className='part_date'
                 >
-                  Dec, 2022 - Current
+                  May, 2023 - Current
                 </div>
                 <span >Codemen Solutions LTD</span>
               </div>
@@ -104,154 +104,44 @@ const Resume = () => {
       </div>
 
       {/* SKills */}
-      <div className='resume_skills'>
-        <h4 >Skills</h4>
-        <div className='underline2'></div>
+      <div className="resume_skills">
+        <h4>Skills</h4>
+        <div className="underline2"></div>
 
-        {/* Skills inner Section */}
-        <div className="skills_inner" >
-
-          {/* Left */}
-          <div className='skills_left'>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >HTML, CSS</h5>
-                <span>100%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress"></div>
-              </div>
+        <div className="skills_inner">
+          {/* Left Column */}
+          <div className="skills_left">
+            <div className="skill_group">
+              <h5>Programming</h5>
+              <p>JavaScript, TypeScript, PHP</p>
             </div>
 
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Javascript</h5>
-                <span>90%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress90"></div>
-              </div>
+            <div className="skill_group">
+              <h5>Database</h5>
+              <p>MySQL, MongoDB</p>
             </div>
 
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >React</h5>
-                <span>75%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress75"></div>
-              </div>
+            <div className="skill_group">
+              <h5>WordPress</h5>
+              <p>Elementor Pro, Custom Post Types, Advanced Custom Fields</p>
             </div>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Node js</h5>
-                <span>80%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress80"></div>
-              </div>
-            </div>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Next js</h5>
-                <span>70%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress65"></div>
-              </div>
-            </div>
-
           </div>
 
-          {/* Right */}
-          <div className='skills_right'>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Wordpress Theme Customization</h5>
-                <span>95%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress95"></div>
-              </div>
+          {/* Right Column */}
+          <div className="skills_right">
+            <div className="skill_group">
+              <h5>Web</h5>
+              <p>HTML, CSS, Tailwind CSS, React, Node.js, Express.js, Next.js, Redux Toolkit</p>
             </div>
 
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Elementor Pro</h5>
-                <span>90%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress90"></div>
-              </div>
+            <div className="skill_group">
+              <h5>Tech</h5>
+              <p>Microsoft Office, Git / GitHub, VS Code, Postman, JIRA</p>
             </div>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >MS Office</h5>
-                <span>70%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress70"></div>
-              </div>
-            </div>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >Postman</h5>
-                <span>80%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress80"></div>
-              </div>
-            </div>
-
-            {/* Single Skill */}
-            <div className='single_skill'>
-
-              <div className="skill">
-                <h5 >VS Code</h5>
-                <span>65%</span>
-              </div>
-
-              <div className='progress_bar'>
-                <div className="progress65"></div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
+
 
     </div>
   )
