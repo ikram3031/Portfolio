@@ -1,12 +1,52 @@
 import React from 'react'
 import Pagetitle from '../components/Pagetitle';
 import './pages.scss'
+import ExperienceSection from '../sections/Experience';
 
 const Resume = () => {
   return (
     <div>
       <Pagetitle title="RESUME" />
+      <ExperienceSection/>
 
+      {/* SKills */}
+      <div className="resume_skills">
+        <h4>Skills</h4>
+        <div className="underline2"></div>
+
+        <div className="skills_inner">
+          {/* Left Column */}
+          <div className="skills_left">
+            <div className="skill_group">
+              <h5>Programming</h5>
+              <p>JavaScript, TypeScript, PHP</p>
+            </div>
+
+            <div className="skill_group">
+              <h5>Database</h5>
+              <p>MySQL, MongoDB</p>
+            </div>
+
+            <div className="skill_group">
+              <h5>WordPress</h5>
+              <p>Elementor Pro, Custom Post Types, Advanced Custom Fields</p>
+            </div>
+          </div>
+
+          {/* Right Column */}
+          <div className="skills_right">
+            <div className="skill_group">
+              <h5>Web</h5>
+              <p>HTML, CSS, Tailwind CSS, React, Node.js, Express.js, Next.js, Redux Toolkit</p>
+            </div>
+
+            <div className="skill_group">
+              <h5>Tech</h5>
+              <p>Microsoft Office, Git / GitHub, VS Code, Postman, JIRA</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='resume'>
         <div className='resume_main'>
 
@@ -101,47 +141,7 @@ const Resume = () => {
           </div>
         </div>
 
-      </div>
-
-      {/* SKills */}
-      <div className="resume_skills">
-        <h4>Skills</h4>
-        <div className="underline2"></div>
-
-        <div className="skills_inner">
-          {/* Left Column */}
-          <div className="skills_left">
-            <div className="skill_group">
-              <h5>Programming</h5>
-              <p>JavaScript, TypeScript, PHP</p>
-            </div>
-
-            <div className="skill_group">
-              <h5>Database</h5>
-              <p>MySQL, MongoDB</p>
-            </div>
-
-            <div className="skill_group">
-              <h5>WordPress</h5>
-              <p>Elementor Pro, Custom Post Types, Advanced Custom Fields</p>
-            </div>
-          </div>
-
-          {/* Right Column */}
-          <div className="skills_right">
-            <div className="skill_group">
-              <h5>Web</h5>
-              <p>HTML, CSS, Tailwind CSS, React, Node.js, Express.js, Next.js, Redux Toolkit</p>
-            </div>
-
-            <div className="skill_group">
-              <h5>Tech</h5>
-              <p>Microsoft Office, Git / GitHub, VS Code, Postman, JIRA</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      </div>      
 
     </div>
   )

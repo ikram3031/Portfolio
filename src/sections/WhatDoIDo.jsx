@@ -28,9 +28,7 @@ const WhatDoIDo = () => {
                 Web App Development
               </span>
               <p className='what_para' >
-                I'm a web developer skilled in MERN and static web development using React,
-                HTML, CSS, and JavaScript. I deliver high-quality, user-friendly web solutions
-                to meet clients' needs. Dynamic apps or simple websites, I bring your vision to life.
+                I specialize in building modern, scalable web applications using React.js, Next.js, Node.js, Express.js, and MongoDB. From frontend design implementation to backend integration, I ensure clean, maintainable code and seamless user experiences. I focus on performance, responsiveness, and efficient data handling to deliver reliable full-stack solutions.
               </p>
             </div>
           </div>
@@ -48,9 +46,7 @@ const WhatDoIDo = () => {
                 Wordpress Development
               </span>
               <p className='what_para' >
-                Experienced Wordpress developer with a track record of delivering over 50 successful websites.
-                Specializing in theme customization and proficient in Elementor Pro.
-                Providing high-quality solutions for 2+ years in the industry.
+                With over 4 years of experience and 80+ WordPress websites delivered, I create fully customized WordPress solutions using Elementor Pro, Advanced Custom Fields (ACF), and Custom Post Types (CPT). My work focuses on building SEO-friendly, responsive, and easy-to-manage websites tailored to client goals.
               </p>
             </div>
           </div>
